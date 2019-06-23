@@ -69,7 +69,6 @@
 		DC6EED7822BF07CF0074F705 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				DCC3CD1822BE91B9006236C5 /* Training_Load.xcdatamodeld */,
 				DC6EED7A22BF08E70074F705 /* HealthKitManager.swift */,
 			);
 			path = Models;
@@ -78,11 +77,9 @@
 		DC6EED7922BF07D70074F705 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DCC3CD1122BE91B9006236C5 /* AppDelegate.swift */,
 				DCC3CD1D22BE91BB006236C5 /* LaunchScreen.storyboard */,
 				DCC3CD1522BE91B9006236C5 /* Main.storyboard */,
-				DCC3CD2022BE91BB006236C5 /* Info.plist */,
-				DC6EED7222BEFAC60074F705 /* Training Load.entitlements */,
+				DCC3CD1122BE91B9006236C5 /* AppDelegate.swift */,
 				DCC3CD1B22BE91BB006236C5 /* Assets.xcassets */,
 			);
 			path = "Support Files";
@@ -108,10 +105,13 @@
 		DCC3CD1022BE91B9006236C5 /* Training Load */ = {
 			isa = PBXGroup;
 			children = (
-				DC6EED7922BF07D70074F705 /* Support Files */,
 				DC6EED7822BF07CF0074F705 /* Models */,
-				DC6EED7622BF07890074F705 /* Controllers */,
 				DC6EED7722BF079E0074F705 /* Views */,
+				DC6EED7622BF07890074F705 /* Controllers */,
+				DC6EED7922BF07D70074F705 /* Support Files */,
+				DCC3CD2022BE91BB006236C5 /* Info.plist */,
+				DC6EED7222BEFAC60074F705 /* Training Load.entitlements */,
+				DCC3CD1822BE91B9006236C5 /* Training_Load.xcdatamodeld */,
 			);
 			path = "Training Load";
 			sourceTree = "<group>";
