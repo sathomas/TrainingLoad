@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DC6EED7522BEFAC60074F705 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6EED7422BEFAC60074F705 /* HealthKit.framework */; };
-		DC6EED7B22BF08E70074F705 /* HealthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6EED7A22BF08E70074F705 /* HealthStore.swift */; };
+		DC6EED7B22BF08E70074F705 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6EED7A22BF08E70074F705 /* HealthKitManager.swift */; };
 		DCC3CD1222BE91B9006236C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC3CD1122BE91B9006236C5 /* AppDelegate.swift */; };
 		DCC3CD1422BE91B9006236C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC3CD1322BE91B9006236C5 /* ViewController.swift */; };
 		DCC3CD1722BE91B9006236C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC3CD1522BE91B9006236C5 /* Main.storyboard */; };
@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		DC6EED7222BEFAC60074F705 /* Training Load.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Training Load.entitlements"; sourceTree = "<group>"; };
 		DC6EED7422BEFAC60074F705 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
-		DC6EED7A22BF08E70074F705 /* HealthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStore.swift; sourceTree = "<group>"; };
+		DC6EED7A22BF08E70074F705 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
 		DCC3CD0E22BE91B9006236C5 /* Training Load.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Training Load.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC3CD1122BE91B9006236C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCC3CD1322BE91B9006236C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				DCC3CD1822BE91B9006236C5 /* Training_Load.xcdatamodeld */,
-				DC6EED7A22BF08E70074F705 /* HealthStore.swift */,
+				DC6EED7A22BF08E70074F705 /* HealthKitManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -195,7 +195,7 @@
 				DCC3CD1422BE91B9006236C5 /* ViewController.swift in Sources */,
 				DCC3CD1A22BE91B9006236C5 /* Training_Load.xcdatamodeld in Sources */,
 				DCC3CD1222BE91B9006236C5 /* AppDelegate.swift in Sources */,
-				DC6EED7B22BF08E70074F705 /* HealthStore.swift in Sources */,
+				DC6EED7B22BF08E70074F705 /* HealthKitManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
